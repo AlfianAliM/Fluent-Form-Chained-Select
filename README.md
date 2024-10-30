@@ -1,3 +1,4 @@
+```
 with kota as (
     select 
         "Kode",
@@ -22,7 +23,7 @@ from kota a
 left join kota b on left(a."Kode", 2) = left(b."Kode", 2) and b."wilayah" = 'provinsi'
 where a."wilayah" = 'wilayah'
 order by a."Kode"
-
+```
 
 
 
