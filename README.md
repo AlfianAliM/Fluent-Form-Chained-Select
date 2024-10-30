@@ -1,4 +1,5 @@
 Sumber data : kotaprovinsi.csv
+
 Output setelah query : namakotaformatfluentform.csv
 
 Query
